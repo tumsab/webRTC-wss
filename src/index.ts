@@ -4,7 +4,7 @@ import express from 'express';
 import http from 'http';
 
 const app = express();
-const port = process.env.PORT || 8080;
+const port = 8080;
 
 // Dummy GET route for Render/UptimeRobot
 app.get('/', (_req, res) => {
